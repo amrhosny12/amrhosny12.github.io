@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <title>MultiMediaProj</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" 
+          href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   
+    
+    
+    <style>
+       
+
+
+        h1 {
+            color: white;
+        }
+
+        h4 {
+            color: black;
+            font-size: 12px;
+            text-align: left;
+
+        }
+
+        h3 {
+            font-size: 12px;
+            text-align: left;
+        }
+        p.normal {
+            font-style: normal;
+        }
+
+        p.italic {
+            font-style: italic;
+        }
+
+        p.oblique {
+            font-style: oblique;
+        }
+        p.normal {
+            font-weight: normal;
+        }
+
+        p.light {
+            font-weight: lighter;
+        }
+
+        p.thick {
+            font-weight: bold;
+        }
+
+        p.thicker {
+            font-weight: 900;
+        }
+        div.container {
+            border: 0px solid black;
+            margin-right: 20px;
+            margin-top: 25px;
+            height: 200px;
+            width: 280px;
+        }
+        div.container1 {
+            border: 0px solid black;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            height: 170px;
+            width: 250px;
+        }
+        div.container2 {
+            border: 0px solid black;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            height: 200px;
+            width: 200px;
+        }
+        div.container3 {
+            border: 0px solid black;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            height: 170px;
+            width: 400px;
+        }
+        
+        div.container4 {
+            border: 0px solid black;
+            margin-left: 0px;
+            margin-bottom: 50px;
+            height: 170px;
+            width: 400px;
+        }
+        div.container_0 {
+            border: 0px solid black;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            height: 100px;
+            width: 312px;
+        }
+        div.container_00 {
+            border: 0px solid black;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            height: 100px;
+            width: 312px;
+        }
+        div.container_1 {
+            border: 0px solid black;
+            margin-left: 10px;
+            margin-bottom: 80px;
+            height: 50px;
+            width: 300px;
+        }
+        div.container_2 {
+            border: 10px solid black;
+
+            margin-top: 200px;
+            margin-left: 200px;
+        }
+
+        div.container_11 {
+            border: 0px solid black;
+            margin-right: 200px;
+            margin-bottom: 80px;
+            height: 300px;
+            width: 350px;
+        }
+
+    </style>
+    <body class="w3-content" style="max-width:1440px">
+
+       
+
+
+
+
+
+
+        <!-- Topic # 1 Grid -->
+        <div class="w3-row" id="Topic1">
+            <div class="w3-padding-32 w3-black w3-center">
+                <h1>Shooting</h1>
+            </div>
+
+
+            <div class="w3-half w3-light-grey w3-center" style="min-height:810px">
+                <div class="w3-padding-24 w3-center">
+                    <h2>Basketball View</h2>
+                </div>
+
+                <div class="w3-padding-4 w3-round-xlarge w3-yellow" style="width:100%">
+                    <h3>
+                        <p class="oblique thick">Shooting a basketball is both an art and a science.
+                            Basketball shooting an art form because it involves finely tuned hand-eye coordination rather than gross motor skills.
+                            For example, unlike such skills as the defensive stance and pivoting, which are relatively invariable, 
+                            shooting form is highly individualistic. There is no one correct way of shooting a basketball, 
+                            although there are certain elements of basketball shooting form common to all good basketball shooters that may be identified.</p>
+                    </h3>   
+                </div><br>
+
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <img src="images/Shooting_Form2.jpg" style="width:300px; height: 200px;cursor:zoom-in"
+                             onclick="document.getElementById('S_F2').style.display = 'block'">
+                        <div id="S_F2" class="w3-modal" onclick="this.style.display = 'none'">
+                            <span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+                            <div class="w3-modal-content w3-animate-zoom">
+                                <img src="images/Shooting_Form2.jpg" style="width:900px;height:550px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="images/Shooting_Form1.jpg" alt="S_F1 View" style="width:280px; height:200px">
+                    </div>
+
+
+                </div><br>
+
+
+                <div class="w3-padding-4 w3-yellow" style="width:100%">
+                    <h3>
+                        <p class="oblique thick">Stephen Curry might be the best shooter today 
+                            and perhaps ever. and so it is fitting to try to analyze his form and the mechanics or his Jumpshot.</p>
+                    </h3>    
+                </div><br>
+
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <video width="345" controls>
+                            <source src="videos/SportScience.mp4" type="video/mp4">
+                            <source src="videos/SportScience..ogg" type="video/ogg">
+                        </video> 
+                    </div>
+
+                    <div class="w3-half">
+
+                        <img src="images/Curry_Form.jpg" style="width:280px; height: 200px;cursor:zoom-in"
+                             onclick="document.getElementById('C_F').style.display = 'block'">
+
+                        <div id="C_F" class="w3-modal" onclick="this.style.display = 'none'">
+                            <span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+                            <div class="w3-modal-content w3-animate-zoom">
+                                <img src="images/Curry_Form.jpg" style="width:900px;height:550px">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+            <div class="w3-half w3-indigo w3-container" style="min-height:810px; width:50%">
+                <div class="w3-padding-24 w3-center">
+                    <h2>Science View</h2>
+                </div>
+
+
+                <div class="w3-row" style="width:100%">
+                    <div class="w3-half container">
+                        <h3>
+                            <p class="oblique thick w3-center" style="width:90%; height: 100%">Along with the shooter's individual form and the hours of practice shooting, 
+                                there are also science behind every subtle detail that can help a shooter perfect his/her jumpshot.
+                                a For instance, for a perfect three pointer, the ball must be released at least 33 degrees from your 
+                                hand when the ball leaves the basket for a slight chance to hit a shot.</p>
+                        </h3>   
+                    </div><br>
+
+
+                    <div class="w3-half container1">
+                        <img src="images/Shot_Angle.jpg" alt="S_F1 View" style="width:100%; height:100%">
+                    </div>
+
+
+                </div>
+
+                <div class="w3-row" style="width:100%">
+                    <div class="w3-half container2">
+                        <img src="images/JS_Ground.png" alt="S_F1 View" style="width:100%; height:100%">
+                    </div>
+
+
+                    <div class="w3-half container3">
+                        <h3>
+                            <p class="oblique thick w3-center" style="width:100%; height: 100%">One has to keep in mind while shooting a ball, 
+                                strength is the most important factor as well. According to Newton’s third
+                                law, for every action there is an equal and opposite reaction. 
+                                When a player is shooting a ball, he would apply force to the ground and force 
+                                would apply back to him so he could jump. As him jump, the force that let him jump 
+                                also apply to the ball therefore allowing him to shoot the ball with that force. 
+                                In other words, the more force a player puts on the ground, the more force would be 
+                                apply to the ball. Therefore, in order to shoot a ball well and consistent, lower body 
+                                power matters as much as the upper body. The stronger you are, the more likely you are able 
+                                to send the ball in a higher point and faster speed, therefore could help improve the accuracy 
+                                of the shot.</p>
+                        </h3>   
+                    </div><br>
+
+                </div>
+                <div class="w3-container">
+                    <div class="w3-center">
+
+                        <video  width="315" height="255" controls>
+                            <source src="videos/No_Jump_Dunks.mp4" type="video/mp4">
+                            <source src="videos/SportScience..ogg" type="video/ogg">
+                        </video> 
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-left w3-half">
+            <a href="Home.html" class="w3-btn w3-btn-block w3-hover-red w3-padding-16">Home</a>
+            </div>
+            
+             <div class="w3-right w3-half">
+            <a href="Topic_2.html" class="w3-btn w3-btn-block w3-hover-red w3-padding-16">Next</a>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------->
+
+
+
+
+    </body>
+</html>
+
+
+

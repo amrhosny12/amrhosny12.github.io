@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <title>MultiMediaProj</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" 
+          href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+    <style>
+        
+
+
+        h1 {
+            color: white;
+        }
+
+        h4 {
+            color: black;
+            font-size: 12px;
+            text-align: left;
+
+        }
+
+        h3 {
+            font-size: 12px;
+            text-align: left;
+        }
+        p.normal {
+            font-style: normal;
+        }
+
+        p.italic {
+            font-style: italic;
+        }
+
+        p.oblique {
+            font-style: oblique;
+        }
+        p.normal {
+            font-weight: normal;
+        }
+
+        p.light {
+            font-weight: lighter;
+        }
+
+        p.thick {
+            font-weight: bold;
+        }
+
+        p.thicker {
+            font-weight: 900;
+        }
+        div.container {
+            border: 0px solid black;
+            margin-right: 20px;
+            margin-top: 25px;
+            height: 200px;
+            width: 280px;
+        }
+        div.container1 {
+            border: 0px solid black;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            height: 170px;
+            width: 250px;
+        }
+        div.container2 {
+            border: 0px solid black;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            height: 200px;
+            width: 200px;
+        }
+        div.container3 {
+            border: 0px solid black;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            height: 170px;
+            width: 400px;
+        }
+        div.container_0 {
+            border: 0px solid black;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            height: 100px;
+            width: 312px;
+        }
+        div.container_00 {
+            border: 0px solid black;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            height: 100px;
+            width: 312px;
+        }
+        div.container_1 {
+            border: 0px solid black;
+            margin-left: 10px;
+            margin-bottom: 80px;
+            height: 50px;
+            width: 300px;
+        }
+        div.container_2 {
+            border: 10px solid black;
+
+            margin-top: 200px;
+            margin-left: 200px;
+        }
+
+        div.container_11 {
+            border: 0px solid black;
+            margin-right: 200px;
+            margin-bottom: 80px;
+            height: 300px;
+            width: 350px;
+        }
+
+    </style>
+    
+
+
+
+
+
+        <!-- Topic # 2 Grid -->
+        <div class="w3-row" id="Topic2">
+            <div class="w3-padding-32 w3-black w3-center">
+                <h1>Physicality & Athletic Attributes</h1>
+            </div>
+
+
+            <div class="w3-half w3-light-grey w3-center" style="min-height:810px">
+                <div class="w3-padding-24 w3-center">
+                    <h2>Basketball View</h2>
+                </div>
+
+                <div class="w3-row" style="width:100%">
+                    <div class="w3-half w3-container w3-red">
+                        <h3>
+                            <p class="oblique thick">
+                                Basketball players tend to be tall, thin athletes because their height helps them in both defending 
+                                and scoring against opponents. Male professional basketball players tend to be about 9 inches taller than the average 
+                                American 25-year-old male who is a 5 feet, 10 inches tall. The tallest basketball player was Yao Ming, who is 7 feet, 
+                                6 inches tall while the shortest basketball player was Nate Robinson, who is 5 feet, 9 inches tall. Also arm reach and 
+                                hand span which are referred to as a wingspan, A longer wingspan is a highly-prized commodity in basketball players longer
+                                arms allow players to "play taller" than they actually are, which is particularly helpful on defense -- blocking shots, 
+                                rebounding, reaching into passing lanes for steals, etc.</p>
+                        </h3>   
+                    </div><br>
+
+                    <div class="w3-half container_1">
+                        <img src="images/wingspan_1.jpg" style="width:320px; height:270px; cursor:zoom-in"
+                             onclick="document.getElementById('WS_1').style.display = 'block'">
+                        <div id="WS_1" class="w3-modal" onclick="this.style.display = 'none'">
+                            <span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+                            <div class="w3-modal-content w3-animate-zoom">
+                                <img src="images/wingspan_1.jpg" style="width:800px;height:500px">
+                            </div>
+                        </div>
+                    </div>
+
+                </div><br>
+
+
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <video width="345" controls>
+                            <source src="videos/No_Jump_Dunks.mp4" type="video/mp4">
+                            <source src="videos/SportScience..ogg" type="video/ogg">
+                        </video> 
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="images/Average_Height.png" style="width:300px; height: 200px;cursor:zoom-in"
+                             onclick="document.getElementById('A_H').style.display = 'block'">
+                        <div id="A_H" class="w3-modal" onclick="this.style.display = 'none'">
+                            <span class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright">&times;</span>
+                            <div class="w3-modal-content w3-animate-zoom">
+                                <img src="images/Average_Height.png" style="width:900px;height:550px">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> <br>
+                <div class="w3-row" style="width:100%">
+                    <div class="w3-half w3-container w3-red container_0">
+                        <h3>
+                            <p class="oblique thick"> safsfdsgldskfldsf;sffdsfsdfdsgdgdfgds
+                                sdfdsfdsfdsfsdfsdgdsgsdfewfggdsdfsdfgfsfsdgfdgs
+                                sdfsfsdfsfssdfdsfsdfefefeeeeeeeeeeeeeeeeeeeeeee
+                        </h3> 
+                    </div>
+
+                    <div class="w3-half w3-container w3-red container_00">
+                        <h3>
+                            <p class="oblique thick"> safsfdsgldskfldsf;sffdsfsdfdsgdgdfgds
+                                sdfdsfdsfdsfsdfsdgdsgsdfewfggdsdfsdfgfsfsdgfdgs
+                                sdfsfsdfsfssdfdsfsdfefefeeeeeeeeeeeeeeeeeeeeeee
+                        </h3> 
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+            <div class="w3-half w3-indigo w3-container" style="min-height:810px; width:50%">
+                <div class="w3-padding-24 w3-center">
+                    <h2>Science View</h2>
+                </div>
+
+                <div class="w3-container">
+                    <div class="w3-panel w3-light-grey w3-round-xlarge" style="width:100%; height:80px">
+                        <h4>
+                            <p class="oblique thick">
+                                some players in the NBA have very special and unique physical attributes that the average man does not have, Scientifically
+                                speaking individuals such as Rajon Rondo or Kawhi Leonard or Kristaps Porzingis are even more unique with their physical gifts.   </p>
+                        </h4>
+                    </div>
+                </div>
+
+
+                <div class="w3-row" style="width:100%">
+                    <div class="w3-half w3-panel w3-light-grey w3-round-xlarge" style="height:250px; width:50%">
+
+                        <h4>
+                            <p class="oblique thick w3-center" style="width:100%; height: 100%">Porzingis did the cone agility drill in a time 
+                                of 2.37 seconds. That’s just .04 seconds slower than Boston Celtics point guard and 2016 NBA All-Star Isaiah Thomas 
+                                at 2.33. In other words, the 7’3″ Porzingis is essentially as agile as the 5’9″ Thomas. Furthermore, Porzingis’ posted
+                                ridiculous measurements of a 7’3.75″ wingspan and a 37.5″ max vertical leap. That’s two inches higher than Blake Griffin’s
+                                max vertical leap. Scientifically speaking, shooting a jump shot over a fully extended Porzingis is like attempting to 
+                                shoot over a 47-passenger charter bus.
+                            </p>
+                        </h4>
+
+
+                    </div><br>
+
+
+                    <div class="w3-half w3-right" style="width:48%">
+
+                        <video  width="315" height="255" controls>
+                            <source src="videos/No_Jump_Dunks.mp4" type="video/mp4">
+                            <source src="videos/SportScience..ogg" type="video/ogg">
+                        </video> 
+
+                    </div><br><br><br>
+
+
+                </div>
+
+                <div class="w3-row" style="width:100%; height: 100%">
+                    <div class="w3-half w3-left" style="width:45%">
+                        <video  width="315" height="255" controls>
+                            <source src="videos/No_Jump_Dunks.mp4" type="video/mp4">
+                            <source src="videos/SportScience..ogg" type="video/ogg">
+                        </video> 
+                    </div>
+
+
+                    <div class="w3-half w3-light-grey w3-right w3-round-xlarge" style="height:300px; width:48%">
+
+                        <h4>
+                            <p class="oblique thick w3-center" style="width:95%; height: 100%">Leonard wields the longest wingspan of any player 
+                                in the NBA's combine database 4 1/2 inches beyond what's expected of a 6-7 man. His hands are bigger than 
+                                Anthony Davis', 10 inches from the base of his palm to the tip of his middle finger. Of the active players 
+                                who've gone through the combine since 2010, he has the widest hands on record, at 11 inches.
+                                It is a well-known fact that Boston Celtics point guard Rajon Rondo has huge hands. The measurement of his hand
+                                9 1/2 inches long and 10 inches wide, which also notes that Rondo’s larger-than-life hands make his wingspan 11 
+                                percent longer than Leonardo Da Vinci’s study of human proportions would predict. Both factors help to explain why 
+                                Rondo accumulates so many steals and assists each year.
+                            </p>
+                        </h4>   
+                    </div><br>
+
+                </div>
+            </div>
+            <div class="w3-left w3-half">
+            <a href="Home.html" class="w3-btn w3-btn-block w3-hover-red w3-padding-16">Home</a>
+            </div>
+            
+             <div class="w3-right w3-half">
+            <a href="Topic_3.html" class="w3-btn w3-btn-block w3-hover-red w3-padding-16">Next</a>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+        
+
+
+       
+
+    </body>
+</html>
+
+
+

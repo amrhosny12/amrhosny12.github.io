@@ -17,14 +17,15 @@ var cat4name = "4";
            
 var cat11name = "None";            
             
+            
 
-var cat1 = ($("input[@name=q1]:checked").val() !== "a"); 
+var cat1 = ($("input[@name=q1]:checked").val() !== "c"); 
            
-var cat2 = ($("input[@name=q2]:checked").val() !== "b");  
+var cat2 = ($("input[@name=q2]:checked").val() !== "d");  
 
-var cat3 = ($("input[@name=q3]:checked").val() !== "c");  
+var cat3 = ($("input[@name=q3]:checked").val() !== "a");  
 
-var cat4 = ($("input[@name=q4]:checked").val() !== "d");  
+var cat4 = ($("input[@name=q4]:checked").val() !== "b");  
   
 
 var cat11 = (!cat1 && !cat2 && !cat3 && !cat4 ); var categories = [];                        
